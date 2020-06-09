@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lol</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.0/socket.io.js"></script>
+  </head>
+  <style>
+    body {
+      padding: 50px;
+      font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    }
+    a {
+      color: #00B7FF;
+    }
+    .title {
+      font-size: 1rem;
+    }
+    #counter {
+      margin: 10px;
+      margin-left: 0;
+    }
+    #counter span {
+        font-weight: 600;
+    }
+    .link {
+        font-size: .8rem;
+        margin-top: 5px;
+        font-style: italic;
+    }
+  </style>
+  <body>
+    <h1 class="title">
+   Testing
+    </h1>
+<!--     
+    <div id="counter">Waiting for server emit timer value ...</div>
+    <button id="reset" onclick="reset()">Reset timer</button> -->
+    
+<h1>
+  Testing 123
+    </h1>
+    
+<!--     <script>
+      // var socket = io('https://servercountdowntimer.glitch.me');
+      var socket = io.connect();
+      var counter = document.getElementById('counter');
+      
+      socket.on('timer', function(data) {
+        counter.innerHTML = `Sale countdown: <span>${Math.floor(data.countdown/60)}:${('0' + data.countdown%60).slice(-2)} </span>`;
+      });
+
+      var reset = function() {
+          socket.emit('reset');
+      };    
+    </script> -->
+  </body>
+</html>
